@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { BomberShip } from '../bomber-ship';
+import { FighterShip } from '../fighter-ship';
+import { Pilot } from '../pilot';
+import { SpaceShip } from '../space-ship';
 
 @Component({
   selector: 'app-hangar',
@@ -6,10 +10,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hangar.component.css']
 })
 export class HangarComponent implements OnInit {
-
+spaceShips: SpaceShip[]=[];
   constructor() { }
 
   ngOnInit(): void {
+  this.spaceShips.push(new FighterShip(new Pilot('Jas Nowak', '/assets/pilot_unknown.png')));
+  this.spaceShips.push(new BomberShip(new Pilot('Jas Nowak', '/assets/pilot_1.png')));
   }
 
 }
