@@ -7,7 +7,8 @@ import { Pilot } from '../pilot';
   styleUrls: ['./pilot.component.css']
 })
 export class PilotComponent implements OnInit {
-@Input() pilot: Pilot;
+
+  @Input() pilot: Pilot;
   constructor() { }
 
   ngOnInit(): void {

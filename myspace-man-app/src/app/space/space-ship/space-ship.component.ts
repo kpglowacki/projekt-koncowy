@@ -1,15 +1,15 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { SpaceShip } from '../space-ship';
-
 @Component({
   selector: 'app-space-ship',
   templateUrl: './space-ship.component.html',
   styleUrls: ['./space-ship.component.css']
 })
 export class SpaceShipComponent implements OnInit {
- @Input() spaceShip: SpaceShip;
-
-   constructor() { }
+ 
+  @Input() spaceShip: SpaceShip;
+ // pilotUrl = this.spaceShip.pilot.imageUrl;
+  constructor() { }
 
   ngOnInit(): void {
   }

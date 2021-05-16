@@ -1,40 +1,41 @@
 :host{
-  display: inline-block;
-  max-width: 130px;
-  margin: 10px;
-  text-align: center;
+    display: inline-block;
+    max-width: 130px;
+    margin: 10px;
+    text-align: center;
 }
 
-img {
-  max-width: 100%;
+img{
+    max-width: 100%;
 }
-.images {
-  position: relative;
+.images{
+    position: relative;
 }
-
-.images .pilot {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 30%;
+.images .pilot{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    
 }
-
 .health{
-  background-color: red;
-  height: 10px;
+    background-color: red;
+    height:10px;
 }
 
-.health div {
-  background-color: green;
-  height: 10px;
+.health div{
+    background-color: green;
+    height: 10px;
 }
-
 .property{
-  display: inline-block;
-  font-size: 10px;
-  margin: 4px;
-  color: gray;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px;
+    color: gray;
 }
 .property.active{
-  color:white
+    color:white;
+}
+.actions{
+    height: 20px; 
 }

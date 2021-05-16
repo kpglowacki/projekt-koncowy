@@ -1,6 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
 body{
-    background-image: url('C:\Users\kpglo\Desktop\SDA\projekt-koncowy\myspace-man-app\src\assets\cosmic_wp.jpg');
-    background-size: cover;
+    background-image: url('./assets/cosmic_wp.jpg')  ;
     color: white;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
