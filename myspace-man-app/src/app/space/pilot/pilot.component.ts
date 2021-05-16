@@ -12,6 +12,7 @@ export class PilotComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('wiadomośc', this.pilot);
   }
 
 }

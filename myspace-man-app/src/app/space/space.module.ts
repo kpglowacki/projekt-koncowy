@@ -8,6 +8,7 @@ import { PilotComponent } from './pilot/pilot.component';
 import { PilotRoomComponent } from './pilot-room/pilot-room.component';
 import { EngineersRoomComponent } from './engineers-room/engineers-room.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     SpaceRoutingModule,
+    SharedModule,
     ReactiveFormsModule
   ]
 })

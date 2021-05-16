@@ -1,0 +1,44 @@
+{
+    "pilots": [
+        {
+            "id": 1,
+            "firstName": "John",
+            "lastName": "Nowak",
+            "imageUrl": "/assets/first.png"
+        },
+        {
+            "id": 2,
+            "firstName": "Alice",
+            "lastName": "Kowal",
+            "imageUrl": "/assets/first.png"
+        },
+        {
+            "id": 3,
+            "firstName": "Bob",
+            "lastName": "Hilton",
+            "imageUrl": "null"
+        }
+    ],
+    
+    "mechanics": [
+        {
+            "id": 1,
+            "firstName": "Sebastian",
+            "lastName": "Vettel",
+            "imageUrl": "/assets/first.png"
+        },
+        {
+            "id": 2,
+            "firstName": "Robert",
+            "lastName": "Kubica",
+            "imageUrl": "/assets/first.png"
+        },
+        {
+            "id": 3,
+            "firstName": "Lewis",
+            "lastName": "Hamilton",
+            "imageUrl": "null"
+        }
+    ]
+    
+}   

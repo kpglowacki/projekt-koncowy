@@ -10,5 +10,5 @@
 <div class="hangar-section">
   <h1>My Pilots</h1>
   <app-pilot-room (selected)="selectedPilot = $event"></app-pilot-room>
-<app-engineers-room></app-engineers-room>
+<app-engineers-room (shipProduced)="spaceShips.push($event)"></app-engineers-room>
 </div>
