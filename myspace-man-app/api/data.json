@@ -2,21 +2,21 @@
     "pilots": [
         {
             "id": 1,
-            "firstName": "John",
+            "firstName": "Grzegorz",
             "lastName": "Nowak",
             "imageUrl": "/assets/first.png"
         },
         {
             "id": 2,
-            "firstName": "Alice",
-            "lastName": "Kowal",
-            "imageUrl": "/assets/first.png"
+            "firstName": "Roman",
+            "lastName": "Kowalski",
+            "imageUrl": "/assets/pilot_1.png"
         },
         {
             "id": 3,
-            "firstName": "Bob",
-            "lastName": "Hilton",
-            "imageUrl": "null"
+            "firstName": "Gerard",
+            "lastName": "Wolski",
+            "imageUrl": "/assets/unknown_avatar.png"
         }
     ],
     

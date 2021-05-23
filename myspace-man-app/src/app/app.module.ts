@@ -14,7 +14,7 @@ import { SpaceModule } from './space/space.module';
     AppRoutingModule,
     SpaceModule,
     HttpClientModule
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

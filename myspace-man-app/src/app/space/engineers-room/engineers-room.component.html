@@ -19,11 +19,8 @@
             podaj liczbę z zakresu od 1 do 5
         </span>
          </div>
-
-
-
-    
-    <div class="control-group">
-        <button type="submit" [disabled]="form.invalid">Produkuj</button>
-    </div>
+         <div class="control-group">
+            <button type="submit" [disabled]="form.invalid || isProducing">Produkuj</button>
+            <p *ngIf="isProducing">Trwa produkcja...</p>
+          </div>
 </form>
